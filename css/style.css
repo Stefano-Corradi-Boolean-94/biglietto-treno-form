@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+h1{
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h2{
+  text-transform: uppercase;
+}
+
+.hide{
+  display: none;
+}
+
+.main-wrapper{
+  background-color: brown;
+  color: white;
+  height: 100vh;
+}
+
+.container{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.btn{
+  padding: 5px 10px;
+  border: 1px solid brown;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  color: brown;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: grey;
+  color: white;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-area,
+.ticket{
+  background-color: white;
+  color: brown;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.col{
+  text-align: center;
+  padding: 30px;
+}
+
+.input-area label,
+.input-area select,
+.input-area input{
+  display: block;
+  text-align: center;
+  margin: 15px 0;
+  font-size: 1.1rem;
+}
+
+.input-area input,
+.input-area select{
+  border: 1px solid brown;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.input-area input:focus,
+.input-area select:focus{
+  background-color: brown;
+  color: white;
+}
+
+.ticket{
+  border-radius: 0;
+  text-align: left;
+  color: black;
+}
+
+.ticket-area .nameBox{
+  background-color: lightgray;
+  padding-bottom: 100px;
+  text-align: left;
+  padding: 10px 10px 100px 10px;
+}
+
+.ticket-area .row{
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.ticket-area .col{
+  padding: 0;
+}
+
+table{
+  margin-left: 20px;
+}
+table td,
+table th{
+  text-align: left;
+  min-width: 120px;
+  height: 50px;
+}
